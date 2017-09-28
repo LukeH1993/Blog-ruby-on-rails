@@ -5,4 +5,4 @@ require_relative '.todos/todo_controller.rb'
 
 use Rack::MethodOverride
 
-run TodoController
+run BlogController

@@ -1,4 +1,4 @@
-class TodoController < Sinatra::Base
+class BlogController < Sinatra::Base
 
 	configure :development do
 		register Sinatra::Reloader
@@ -7,20 +7,20 @@ class TodoController < Sinatra::Base
 	set :root, File.join(File.dirname(__FILE__), '..')
 	set :views Proc.new{File.join(root, 'views')}
 
-	$todos = [{
+	$blogs = [{
 		title: "What needs to be done"
 		desc: "How to do it"
 	}]
 
 	# INDEX
-	get '/todos/' do
+	get '/blogs/' do
 		@page_header
-		@todos = $todos
-		erb :'todos/index'
+		@blogs = $blogs
+		erb :'blogs/index'
 	end
 
 	# NEW
-	
+
 	# SHOW
 	# CREATE
 	# EDIT
