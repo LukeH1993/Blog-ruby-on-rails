@@ -1,0 +1,18 @@
+<h1><%= @page_header %></h1>
+
+<%= @todos %>
+
+<% @todos.each_with_index do |todo, index| %>
+
+	<h2><%= todo[:title] %></h2>
+	<p><<%= todo[:desc] %></p>
+	<a href="/todos/<%=index%>/edit">Edit</a>
+	<a href="/todos/<%=index%>">View</a>
+	<br>
+
+	<form action="/todos/ <%=index%>" method="POST">
+		<input type="hidden" name="_method" value="DELETE">
+		<input type="submit" name="Delete">
+	</form>
+
+<% end %>
