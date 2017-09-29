@@ -1,11 +1,11 @@
 <h1><%= @page_header %></h1>
 
-<%= @blogs %>
+<% @blogs %>
 
 <% @blogs.each_with_index do |blog, index| %>
 
 	<h2><%= blog[:title] %></h2>
-	<p><<%= blog[:desc] %></p>
+	<p><%= blog[:desc] %></p>
 	<a href="/blogs/<%=index%>/edit">Edit</a>
 	<a href="/blogs/<%=index%>">View</a>
 	<br>
