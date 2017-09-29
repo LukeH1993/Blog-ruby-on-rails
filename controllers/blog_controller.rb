@@ -39,7 +39,7 @@ class BlogController < Sinatra::Base
 
 	# INDEX
 	get "/blogs" do
-		@page_header = "Blog A Blog"
+		@page_header = "Blog A Blog, the world's best blogging page!"
 		@blogs = $blogs
 		erb :"blogs/index"
 	end
@@ -60,7 +60,7 @@ class BlogController < Sinatra::Base
 	post "/blogs" do
 		new_blog = {
 			title: params[:title],
-			desc: params[:desc]
+			desc: params[:desc],
 		}
 		$blogs << new_blog
 		redirect "/blogs"
