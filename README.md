@@ -12,7 +12,7 @@ Run the following commands in your terminal to get the web application working:
 * rails s
 
 ## Prerequisites
-All you will need to access this website is to clone this repository, run a series of rakes in the terminal and run the server, which will then run the web application in your web browser.
+All you will need to access this web application is to clone this repository, run a series of rakes in the terminal and run the server, which will then run the web application in your web browser.
 
 ### Gems
 Run the following commands in your terminal to get the required gem dependencies:
@@ -25,7 +25,7 @@ The following gems are included in the program's syntax:
 * gem "rack"
 
 ## Built With
-This web application was built in Sublime Text with the following web technologies:
+This web application was built in Sublime Text with the following languages and web technologies:
 
 * Ruby
 * Ruby on Rails
