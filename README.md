@@ -3,6 +3,7 @@
 This task was a practise with making Ruby on Rails web applications when I first started learning web development. The web application demonstrates simple Ruby on Rails and CRUD functionality.
 
 ## Getting Started
+Run the following commands in your terminal to get the web application working:
 * Clone this repository into your terminal.
 * rake:db create
 * rake:db migrate
