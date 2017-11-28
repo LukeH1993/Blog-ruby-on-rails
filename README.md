@@ -1,6 +1,6 @@
 # Blog A Blog
 
-This is a practise Ruby on Rails web application when I first started learning web development. The web application demonstrates simple Ruby on Rails and CRUD functionality.
+This task was a practise with making Ruby on Rails web applications when I first started learning web development. The web application demonstrates simple Ruby on Rails and CRUD functionality.
 
 ## Getting Started
 * Clone this repository into your terminal.
@@ -14,12 +14,17 @@ This is a practise Ruby on Rails web application when I first started learning w
 All you will need to access this website is to clone this repository, run a series of rakes in the terminal and run the server, which will then run the web application in your web browser.
 
 ### Gems
+Run the following commands in your terminal to get the required gem dependencies:
+* gem install sinatra
+* gem install rack
+
+The following gems are included in the program's syntax:
 * gem "sinatra"
 * gem "sinatra-reloader" if development?
-* Gem "rack"
+* gem "rack"
 
 ## Built With
-This web application was built with the following web technologies:
+This web application was built in Sublime Text with the following web technologies:
 
 * Ruby
 * Ruby on Rails
